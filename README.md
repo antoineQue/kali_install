@@ -1,8 +1,11 @@
 # kali_install
-Bash script used to install all needed tools on a new kali machine
+Bash script used to install all needed tools on a new kali machine.
+Update, upgrade
 
 # Tools
-VIA APT
+__VIA APT__
+* virtualbox-guest-x11 
+* apt-transport-https
 * gobuster 
 * crackmapexec
 * terminator
