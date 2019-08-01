@@ -8,31 +8,31 @@ VIA APT
 * terminator
 * Sublime-text
 
-WEB
+__WEB__
 * Drupwn
 * Testssl
 
-MOBILE
+__MOBILE__  
 None, for now
 
-NETWORK
+__NETWORK__
 * Responder
 * Impacket
 
-PRIVESC
+__PRIVESC__
 * enum4linux
 * windows ecploit suggester
 * sudo_killer
 * LinEnum
 
-DISCOVERY
+__DISCOVERY__
 * Dirsearch
 * Sublist3r
 
-WORDLISTS
+__WORDLISTS__
 * fuzzdb
 * Seclists
 
-DIVERS
+__DIVERS__
 * GitTools
 * Create_ap
