@@ -1,6 +1,5 @@
 # kali_install
 Bash script used to install all needed tools on a new kali machine.
-Update, upgrade
 
 # Tools
 __VIA APT__
