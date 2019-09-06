@@ -9,6 +9,9 @@ __VIA APT__
 * crackmapexec
 * terminator
 * Sublime-text
+* curl
+* python-pip
+* python3-pip
 
 __WEB__
 * Drupwn
