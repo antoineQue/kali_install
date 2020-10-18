@@ -19,6 +19,12 @@ mkdir ~/tools/web && mkdir ~/tools/mobile && mkdir ~/tools/privesc && mkdir ~/to
 cd ~/tools/web
 git clone https://github.com/immunIT/drupwn.git && cd drupwn && pip3 install -r requirements.txt && cd .. 
 git clone --depth 1 https://github.com/drwetter/testssl.sh.git 
+git clone https://github.com/internetwache/GitTools
+git clone https://github.com/Tuhinshubhra/CMSeeK && cd CMSeeK && pip install -r requirements.txt && pip3 install -r requirements.txt && cd ..
+git clone https://github.com/synacktiv/eos && python3 -m pip install --user ./eos
+git clone https://github.com/ThmsLa/eZscanner.git
+git clone https://github.com/meliot/shcheck
+git clone https://github.com/feakk/xxxpwn
 cd ..
 
 
@@ -28,7 +34,7 @@ cd ..
 
 cd ~/tools/network
 git clone https://github.com/SpiderLabs/Responder.git 
-git clone https://github.com/SecureAuthCorp/impacket.git 
+git clone https://github.com/SecureAuthCorp/impacket.git && cd impacket && pip install . && cd ..
 cd ..
 
 cd ~/tools/privesc
@@ -46,7 +52,6 @@ cd ..
 
 
 cd ~/tools/divers
-git clone https://github.com/internetwache/GitTools.git
 git clone https://github.com/oblique/create_ap && cd create_ap && make install
 cd ..
 
