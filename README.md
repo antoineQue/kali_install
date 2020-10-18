@@ -16,8 +16,14 @@ __VIA APT__
 __WEB__
 * Drupwn
 * Testssl
+* GitTools
+* CMSeek
+* EOS
+* eZscanner
+* shCheck
+* xxxpwn
 
-__MOBILE__  
+__MOBILE__
 None, for now
 
 __NETWORK__
@@ -39,5 +45,4 @@ __WORDLISTS__
 * Seclists
 
 __DIVERS__
-* GitTools
 * Create_ap
