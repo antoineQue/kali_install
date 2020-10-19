@@ -8,7 +8,7 @@ echo "NOTE : THINK TO ACTIVATE BIDIRECTIONAL COPY/PASTE"
 apt update && apt -y full-upgrade 
 
 echo "------- APT INSTALL PACKAGE------" 
-apt install -y virtualbox-guest-x11 apt-transport-https gobuster crackmapexec terminator curl python-pip python3-pip
+apt install -y virtualbox-guest-x11 apt-transport-https gobuster crackmapexec terminator curl python3-pip tree
 
 
 mkdir ~/tools && cd ~/tools 

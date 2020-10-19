@@ -10,7 +10,6 @@ __VIA APT__
 * terminator
 * Sublime-text
 * curl
-* python-pip
 * python3-pip
 
 __WEB__
