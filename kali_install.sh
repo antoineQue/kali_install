@@ -8,7 +8,7 @@ echo "NOTE : THINK TO ACTIVATE BIDIRECTIONAL COPY/PASTE"
 apt update && apt -y full-upgrade 
 
 echo "------- APT INSTALL PACKAGE------" 
-apt install -y virtualbox-guest-x11 virtualenv apt-transport-https git gobuster terminator curl python3-pip tree pipx libaio1 python3-dev alien
+apt install -y exploitdb exploitdb-papers virtualbox-guest-x11 virtualenv apt-transport-https gobuster terminator curl python3-pip tree pipx libaio1 python3-dev alien
 
 
 mkdir ~/tools && cd ~/tools 
@@ -35,7 +35,6 @@ cd ..
 cd ~/tools/network
 git clone https://github.com/SpiderLabs/Responder.git 
 git clone https://github.com/quentinhardy/odat.git
-git clone https://github.com/SecureAuthCorp/impacket.git && cd impacket && pip install . && cd ..
 cd ..
 
 cd ~/tools/privesc
