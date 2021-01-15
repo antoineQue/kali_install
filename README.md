@@ -3,14 +3,20 @@ Bash script used to install all needed tools on a new kali machine.
 
 # Tools
 __VIA APT__
+* exploitdb 
+* exploitdb-papers 
 * virtualbox-guest-x11 
-* apt-transport-https
+* virtualenv 
+* apt-transport-https 
 * gobuster 
-* crackmapexec
-* terminator
-* Sublime-text
-* curl
-* python3-pip
+* terminator 
+* curl 
+* python3-pip 
+* tree 
+* pipx 
+* libaio1 
+* python3-dev 
+* alien
 
 __WEB__
 * Drupwn
@@ -27,7 +33,7 @@ None, for now
 
 __NETWORK__
 * Responder
-* Impacket
+* ODAT
 
 __PRIVESC__
 * enum4linux
